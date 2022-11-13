@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "npm run build --prefix front-end && mv front-end/build back-end/build"
+        "build": "npm install --prefix front-end && npm run build --prefix front-end && mv front-end/build back-end/build"
     },
     "author": "",
     "license": "ISC"
