@@ -1,0 +1,12 @@
+{
+    "name": "chat-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run build --prefix front-end && mv front-end/build back-end/build"
+    },
+    "author": "",
+    "license": "ISC"
+}
